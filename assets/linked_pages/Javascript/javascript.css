@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 1em;
+    /* border: unset; */
+}
+
+body{
+    background: url('./hir.jpg') -02em -10em;
+    width: 100vw;
+    min-height: 100vh;
+    background-size: 100em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+div{    
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button{    
+    width: 4em;
+    background-color: inherit;
+    border: unset;
+
+}
+
+a{
+    color: rgb(14, 29, 1);
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: monospace;
+    z-index: 1;
+
+}
+
+img{
+    width: 100%;
+    border: solid snow .2em;
+    border-radius: .5em;
+    opacity: calc(45%);
+}
